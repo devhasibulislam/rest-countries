@@ -22,6 +22,20 @@ import Skeleton from "@/components/Skeleton";
 import Country from "@/utils/types";
 import Fuse from "fuse.js";
 import { useState } from "react";
+import { Inter, Roboto } from "next/font/google";
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
+
+export const roboto = Roboto({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-roboto",
+});
 
 export default function Home(): JSX.Element {
   const countries = useGetCountries();
