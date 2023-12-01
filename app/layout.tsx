@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "Rest Countries",
     description:
       "Find any country using advance search filter with masonary layout",
-    url: "https://rest-countries.vercel.app",
+    url: "https://rs-rest-countries.vercel.app",
     siteName: "Rest Countries",
     locale: "en_US",
     type: "website",
