@@ -17,7 +17,17 @@ export const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "Rest Countries",
-  description: "Find any country using advance search filter",
+  description:
+    "Find any country using advance search filter with masonary layout",
+  openGraph: {
+    title: "Rest Countries",
+    description:
+      "Find any country using advance search filter with masonary layout",
+    url: "https://rest-countries.vercel.app",
+    siteName: "Rest Countries",
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
